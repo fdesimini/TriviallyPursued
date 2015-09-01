@@ -11,27 +11,34 @@ import UIKit
 class ViewController: UIViewController {
     
         
-   // var trivia0 = Trivia(name: "CN Tower", country: "Toronto, Canada", trivia: "Largest Building")
-  //  var trivia1 = Trivia(name: "Burger Priest", country: "Toronto, Canada", trivia: "Largest Building")
-  //  var trivia2 = Trivia(name: "My House", country: "Toronto, Canada", trivia: "Largest Building")
+    var trivia0 = Trivia(name: "CN Tower", country: "Canada", trivia: "Largest Building")
+    var trivia1 = Trivia(name: "Yonge Stree", country: "Canada", trivia: "Longest Street")
+    var trivia2 = Trivia(name: "Trans-Canada Highway", country: "Canada", trivia: "The Longest Highway in the World")
+    var trivia3 = Trivia(name: "Coast to Coast", country: "Canada", trivia: "The Longest Coastline")
+    var trivia4 = Trivia(name: "Thousand Island Railway", country: "Canada", trivia: "North America's Smallest Railway")
+    var trivia5 = Trivia(name: "Mount Macdonald Tunnel", country: "Canada", trivia: "Longest Tunnel on the Continent")
+    var trivia6 = Trivia(name: "Wasaga Beach", country: "Canada", trivia: "The World’s Longest Freshwater BeacH")
+    var trivia7 = Trivia(name: "Banff National Park", country: "Canada", trivia: "Oldest National Park")
+    var trivia8 = Trivia(name: "Rogers Centre", country: "Canada", trivia: "Largest Sony Big Screen")
+    var trivia9 = Trivia(name: "Big Nickel", country: "Canada", trivia: "The World's Largest Coin")
 
     var trivias = [Trivia]()
-    var addString = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for var i = 0 ; i < 10 ; i++ {
-            var dataString = "name\(i)"
-            var nameTrivia = Trivia(name: dataString, country: "Toronto, Canada", trivia: "Largest Building")
-            trivias.append(nameTrivia)
-            
-       // var Trivia(name: "CN Tower", country: "Toronto, Canada", trivia: "Largest Building")
-            
-        }
-        for var i = 0 ; i < trivias.count; i++ {
-            println(trivias[i].name)
-        }
+        trivias.append(trivia0)
+        trivias.append(trivia1)
+        trivias.append(trivia2)
+        trivias.append(trivia3)
+        trivias.append(trivia4)
+        trivias.append(trivia5)
+        trivias.append(trivia6)
+        trivias.append(trivia7)
+        trivias.append(trivia8)
+        trivias.append(trivia9)
+
+        println(trivias)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
