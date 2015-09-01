@@ -13,6 +13,8 @@
 		39EF3A731B94FCA700624964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EF3A721B94FCA700624964 /* Images.xcassets */; };
 		39EF3A761B94FCA700624964 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39EF3A741B94FCA700624964 /* LaunchScreen.xib */; };
 		39EF3A821B94FCA700624964 /* TriviallyPursuedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF3A811B94FCA700624964 /* TriviallyPursuedTests.swift */; };
+		39EF3A8F1B94FFA500624964 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF3A8E1B94FFA500624964 /* DataModel.swift */; };
+		39EF3A941B950C1200624964 /* TriviaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF3A931B950C1200624964 /* TriviaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		39EF3A7B1B94FCA700624964 /* TriviallyPursuedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviallyPursuedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EF3A801B94FCA700624964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39EF3A811B94FCA700624964 /* TriviallyPursuedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviallyPursuedTests.swift; sourceTree = "<group>"; };
+		39EF3A8E1B94FFA500624964 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		39EF3A931B950C1200624964 /* TriviaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		39EF3A681B94FCA700624964 /* TriviallyPursued */ = {
 			isa = PBXGroup;
 			children = (
+				39EF3A901B950BAB00624964 /* Controllers */,
+				39EF3A8B1B94FD6900624964 /* Model */,
 				39EF3A6B1B94FCA700624964 /* AppDelegate.swift */,
 				39EF3A6D1B94FCA700624964 /* ViewController.swift */,
 				39EF3A6F1B94FCA700624964 /* Main.storyboard */,
@@ -110,6 +116,22 @@
 				39EF3A801B94FCA700624964 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39EF3A8B1B94FD6900624964 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39EF3A8E1B94FFA500624964 /* DataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		39EF3A901B950BAB00624964 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39EF3A931B950C1200624964 /* TriviaTableViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39EF3A941B950C1200624964 /* TriviaTableViewController.swift in Sources */,
 				39EF3A6E1B94FCA700624964 /* ViewController.swift in Sources */,
+				39EF3A8F1B94FFA500624964 /* DataModel.swift in Sources */,
 				39EF3A6C1B94FCA700624964 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
