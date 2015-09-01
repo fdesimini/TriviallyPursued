@@ -16,6 +16,7 @@
 		39EF3A8F1B94FFA500624964 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF3A8E1B94FFA500624964 /* DataModel.swift */; };
 		39EF3A941B950C1200624964 /* TriviaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF3A931B950C1200624964 /* TriviaTableViewController.swift */; };
 		39F158F71B963251002ED90D /* TriviaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F158F61B963251002ED90D /* TriviaTableViewCell.swift */; };
+		39F583321B964BFD00D3AB84 /* TriviaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F583311B964BFD00D3AB84 /* TriviaMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		39EF3A8E1B94FFA500624964 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		39EF3A931B950C1200624964 /* TriviaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewController.swift; sourceTree = "<group>"; };
 		39F158F61B963251002ED90D /* TriviaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewCell.swift; sourceTree = "<group>"; };
+		39F583311B964BFD00D3AB84 /* TriviaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		39EF3A901B950BAB00624964 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				39F583311B964BFD00D3AB84 /* TriviaMapViewController.swift */,
 				39EF3A931B950C1200624964 /* TriviaTableViewController.swift */,
 				39F158F61B963251002ED90D /* TriviaTableViewCell.swift */,
 			);
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F583321B964BFD00D3AB84 /* TriviaMapViewController.swift in Sources */,
 				39EF3A941B950C1200624964 /* TriviaTableViewController.swift in Sources */,
 				39EF3A6E1B94FCA700624964 /* ViewController.swift in Sources */,
 				39EF3A8F1B94FFA500624964 /* DataModel.swift in Sources */,

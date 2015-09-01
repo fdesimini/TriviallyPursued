@@ -81,5 +81,28 @@
             </objects>
             <point key="canvasLocation" x="1115" y="428"/>
         </scene>
+        <!--Trivia Map View Controller-->
+        <scene sceneID="XHy-Uv-cMD">
+            <objects>
+                <viewController id="gVk-Lq-ow2" customClass="TriviaMapViewController" customModule="TriviallyPursued" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PgF-EX-3AD"/>
+                        <viewControllerLayoutGuide type="bottom" id="G0f-eQ-6x6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LGB-UG-9BR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Flw-MI-ReX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jfk-JF-hWL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1824" y="428"/>
+        </scene>
     </scenes>
 </document>
